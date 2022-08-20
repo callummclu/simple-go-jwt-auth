@@ -1,0 +1,19 @@
+POST http://localhost:3002/user/
+
+{
+    "username":"callummclu",
+    "password":"010305"
+}
+
+###
+
+POST http://localhost:3002/auth/login
+
+{
+    "username":"callummclu",
+    "password":"010305"
+}
+
+###
+
+GET http://localhost:3002/auth/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJnby1zb2NpYWwuand0Z28uaW8iLCJleHAiOjE2NjEwMjc3NTgsImlzcyI6Imp3dGdvLmlvIiwidXNlciI6ImNhbGx1bW1jbHUifQ.piSpUJn9Ew97RJik_qSunKm3nXf0onL-kXD3PjKYlxo
